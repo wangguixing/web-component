@@ -1,0 +1,36 @@
+{
+  "name": "web-component",
+  "version": "1.0.0",
+  "description": "HTML Web Component",
+  "author": "wangguixing",
+  "scripts": {
+    "start": "cd dist && serve",
+    "build": "webpack --config build/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangguixing/web-component.git"
+  },
+  "keywords": [
+    "HTML",
+    "Web",
+    "Component"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangguixing/web-component/issues"
+  },
+  "homepage": "https://github.com/wangguixing/web-component#readme",
+  "devDependencies": {
+    "compression-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0"
+  }
+}
